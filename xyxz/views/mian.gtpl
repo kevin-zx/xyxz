@@ -39,7 +39,8 @@
           <input type="password" placeholder="Password" class="form-control">
         </div>
         <button type="submit" class="btn btn-success">Sign in</button>
-        <button type="submit" class="btn btn-info">Sign up</button>
+        <!-- <button type="submit" class="btn btn-info">Sign up</button> -->
+        <a class="btn btn-info" href="#" role="hbutton">Sign up</a>
       </form>
     </div><!--/.navbar-collapse -->
   </div>
@@ -79,29 +80,6 @@
     <p>© Company 2014</p>
   </footer>
 </div>
-<!-- <script src="/asset/js/test.js"></script>
-<div class="jumbotron">
-  <div class="container">
-
-      <form class="form-signin" role="form">
-        <h2 class="form-signin-heading">Please sign in</h2>
-        <input type="email" class="form-control" placeholder="Email address" required="" autofocus="">
-        <input type="password" class="form-control" placeholder="Password" required="">
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" value="remember-me"> Remember me
-          </label>
-        </div>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-      </form>
-
-    </div>
-</div> -->
-<!-- <form action="/login" method="post">
-    用户名:<input type="text" name="username">
-    密码:<input type="password" name="password">
-    <input type="submit" value="登陆">
-</form> -->
 </body>
 <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
 <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
