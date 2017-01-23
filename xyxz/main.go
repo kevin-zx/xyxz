@@ -7,7 +7,7 @@ import (
 )
 
 func sayhelloName(w http.ResponseWriter, r *http.Request) {
-	t, _ := template.ParseFiles("./views/mian.gtpl")
+	t, _ := template.ParseFiles("./views/main.gtpl")
 	t.Execute(w, nil)
 }
 
