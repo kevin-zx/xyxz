@@ -9,7 +9,10 @@
 <!--  -->
 <!-- 新 Bootstrap 核心 CSS 文件 -->
 <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="asset/js/common.js"></script>
 <script src="asset/js/main.js"></script>
+
 <!-- <link rel="stylesheet" href="http://v3.bootcss.com/examples/jumbotron/jumbotron.css"> -->
 <!-- http://v3.bootcss.com/examples/jumbotron/jumbotron.css -->
 <style type="text/css">
@@ -32,14 +35,14 @@
       <a class="navbar-brand" href="#">Project name</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
-      <form class="navbar-form navbar-right" role="form">
+      <form class="navbar-form navbar-right" role="form" >
         <div class="form-group">
-          <input type="text" placeholder="Email" class="form-control">
+          <input type="text" id="email" placeholder="Email" class="form-control">
         </div>
         <div class="form-group">
-          <input type="password" placeholder="Password" class="form-control">
+          <input type="password" id="passwd" placeholder="Password" class="form-control">
         </div>
-        <a href="" class="btn btn-success" id="signin">Sign in</a>
+        <a class="btn btn-success" id="signin">Sign in</a>
       </form>
     </div>
   </div>
@@ -79,7 +82,7 @@
 </div>
 </body>
 <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
-<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+<!-- <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script> -->
 <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
 <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 <!-- <script src="asset/js/test.js"></script> -->

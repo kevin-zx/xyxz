@@ -24,6 +24,7 @@ func main() {
 		http.FileServer(http.Dir("./static/"))))
 	http.HandleFunc("/", sayhelloName)
 	http.HandleFunc("/signup/", signup)
+
 	err := http.ListenAndServe(":8080", nil)
 	if err != nil {
 		log.Fatal("ListenAndServe: ", err)
