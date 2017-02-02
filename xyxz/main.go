@@ -6,12 +6,18 @@ import (
 	"net/http"
 )
 
+type test struct {
+	UserName string
+}
+
 func sayhelloName(w http.ResponseWriter, r *http.Request) {
+	usr := test{UserName: "test"}
 	t, _ := template.ParseFiles("./views/main.gtpl")
-	t.Execute(w, nil)
+	t.Execute(w, usr)
 }
 
 func signup(w http.ResponseWriter, r *http.Request) {
+
 	s1, _ := template.ParseFiles("./views/header.gtpl", "./views/signup.gtpl", "./views/footer.gtpl")
 	s1.ExecuteTemplate(w, "header", nil)
 	s1.ExecuteTemplate(w, "signup", nil)
